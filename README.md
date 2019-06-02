@@ -6,14 +6,12 @@ Steps are the following:
 
 1. Clone the repository to your local machine
 2. The Dockerfile will do:
-
         A. Create maven container <br />
         
      * copy pom.xml to /tmp <br />
      * copy folder "src" to /tmp/src <br />
      * Go to /tmp folder then run "mvn package"<br />
-      
-      The previos command will generate devopsarea-01.war<br />
+            The previos command will generate devopsarea-01.war<br />
         
         B. Create tomcat container<br />
         
